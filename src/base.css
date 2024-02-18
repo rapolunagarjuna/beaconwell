@@ -1,0 +1,43 @@
+/* base.css */
+:root {
+  --primary-color: #9dcfd2 ; /* Default primary color (blue) */
+  --secondary-color: #FFFFFF; /* Default secondary color (gray) */
+}
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2rem; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Subheading styles */
+.subheading {
+  font-size: 1rem; /* Adjust as needed */
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+  margin-bottom: 0.25rem;
+}

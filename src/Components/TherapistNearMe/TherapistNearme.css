@@ -1,0 +1,44 @@
+.therapist-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    flex: 0 0 30%;
+  }
+  
+  .therapist-image {
+    width: 100%;
+    height: auto;
+  }
+  .button-group {
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .view-button {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .therapist-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+ 
+  .specialties-tags {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .specialty-tag {
+    background-color: #f0f0f0 !important; /* Gray background */
+    color: #333 !important; /* Text color */
+    border-radius: 16px !important; /* Rounded corners */
+    padding: 6px 12px !important; /* Padding */
+    margin: 4px !important; /* Margin */
+    font-size: 0.9rem !important; /* Font size */
+  }
+  

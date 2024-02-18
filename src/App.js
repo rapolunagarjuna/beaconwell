@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from './Components/LandingPage/LandingPage';
+import MoodTracker from './Components/MoodTrcker/MoodTracker'; // Corrected import
+import NotFound from "./Components/NoFile/NoFile"
+import TherapistCardContainer from './Components/TherapistNearMe/TherapistContainer';
 
-function App() {
+
+import './base.css'
+import Login from './Components/Login/LoginIn';
+import Test from './Components/Test';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="/mood" element={<MoodTracker/>} />
+        <Route path='/therapistnearme' element={<TherapistCardContainer/>}/>
+        <Route path='/test' element={<Test/>}/>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 export default App;

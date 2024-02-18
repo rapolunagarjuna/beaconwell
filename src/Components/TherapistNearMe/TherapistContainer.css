@@ -1,0 +1,66 @@
+.therapist-card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px; /* Adjust negative margin to compensate for the margin between cards */
+  }
+  
+  .therapist-card {
+    width: 80%; /* Set width to 80% of the screen */
+    max-width: 600px;
+    margin-bottom: 20px;
+
+    margin: 10px; /* Adjust margin between cards */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    width: 100%;
+  }
+  
+  .therapist-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .therapist-details {
+    padding: 20px;
+  }
+  
+  .therapist-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .therapist-details p {
+    margin: 5px 0;
+  }
+  
+  .therapist-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .therapist-details ul li {
+    margin-bottom: 5px;
+  }
+  
+  .view-button,
+  .contact-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .view-button:hover,
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  

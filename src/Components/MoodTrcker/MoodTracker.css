@@ -1,0 +1,102 @@
+.mood-tracker-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .emotion-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .emotion-buttons button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .emotion-buttons button.active {
+    background-color: #b8d6ff; /* Change to your preferred active color */
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Change to your preferred button color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Change to your preferred hover color */
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px; /* Adjust the padding as needed */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .emotion {
+    margin-right: 5px; /* Add space between emotions */
+  }
+  .emotions-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .emotions-container button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .emotions-container button.active {
+    background-color: #007bff; /* Change to your preferred active color */
+    color: white;
+  }
+  
+  .emotions-container button:hover {
+    background-color: #0056b3; /* Change to your preferred hover color */
+    color: white;
+  }
+  
