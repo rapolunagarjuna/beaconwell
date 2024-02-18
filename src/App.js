@@ -10,6 +10,7 @@ import TherapistCardContainer from './Components/TherapistNearMe/TherapistContai
 import './base.css'
 import Login from './Components/Login/LoginIn';
 import Test from './Components/Test';
+import Home from './Components/Home/Home';
 const App = () => {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/mood" element={<MoodTracker/>} />
         <Route path='/therapistnearme' element={<TherapistCardContainer/>}/>
         <Route path='/test' element={<Test/>}/>
+        <Route path='/home' element={<Home/>}/>
       </Routes>
     </BrowserRouter>
   );
